@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import FeaturedPost from '../components/FeaturedPost'
 import Layout from '../components/Layout'
 import CardPost from '../components/CardPost'
@@ -10,6 +11,9 @@ export default function Home() {
 
   return (
     <Layout>
+      <Head>
+        <title>Home &mdash; Epictetus</title>
+      </Head>
       <Container>
         <FeaturedPost />
         <div className="-mx-4 flex flex-wrap pt-6">
