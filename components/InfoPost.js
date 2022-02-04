@@ -16,7 +16,7 @@ export default function InfoPost({
       </div>
       <h2 className="mt-4 text-2xl">{title}</h2>
       <p className="mt-4 w-10/12 text-white/60">{shortDescription}</p>
-      <div className="mt-6 flex items-center">
+      <div className="mt-5 flex items-center">
         <div>
           <img src={authorAvatar} className="w-12" />
         </div>
