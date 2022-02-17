@@ -163,7 +163,7 @@ export default function Navbar() {
                   </svg>
                 </a>
                 {dropdown && (
-                  <ul className="absolute mt-1 mt-4 w-[200px] rounded bg-gray-800 shadow-xl">
+                  <ul className="absolute mt-4 w-[200px] rounded bg-gray-800 shadow-xl">
                     {dropdownList.map(({ text, href }) => (
                       <li
                         key={text}
